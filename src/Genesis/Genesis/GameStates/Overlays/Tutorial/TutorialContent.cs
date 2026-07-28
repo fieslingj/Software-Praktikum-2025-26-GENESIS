@@ -1,0 +1,28 @@
+namespace Genesis.GameStates.Overlays.Tutorial;
+
+public static class TutorialContent
+{
+    public const string Title = "Tutorial";
+
+    public const string MovementText = "You regain consciousness deep in the basement of the Helix Biotech research facility, surrounded by cold concrete walls and the pungent scent of disinfectant. In a world where science knows no bounds, you, one of the final test subjects of Project Genesis, have mutated into a power you can barely control. Chaos has consumed everything, but you are not alone... Security personnel and crazed researchers are already on your heels, intent on eliminating you. To escape, navigate the hallways using either the W, A, S, and D keys or the arrow keys. By holding the left Shift key, you can sprint to gain distance, but always keep an eye on the stamina bar (STA) at the top left. If you seek protection or wish to reduce your hitbox during combat, crouch using the Ctrl key. Should you prefer a different control scheme, the key bindings can be adjusted at any time in the settings.";
+
+    public const string AttackingText = "To defend yourself against the lurking dangers, use your equipment and your newly acquired powers. Use the left mouse button to perform an attack with your currently equipped weapon. Your starting weapon, the Rusty Metal Pipe, is ideal for melee combat, while for ranged weapons like the Pistol, you should always keep an eye on your ammo count in the HUD. Once you have caused enough destruction and unleashed your bloodlust, you can also use your unique special ability to overwhelm even the toughest enemies, such as combat robots. Use keys 1 through 5 to quickly switch between your item slots, and use consumables like healing syringes with the F key to maintain the upper hand in battle.";
+
+    public const string InteractingWithDoor = "You are standing before an entrance to the next room. Press the E key to open the door. Note that the facility's security mechanisms keep the doors locked as long as hostile threats remain in the room. If you are looking for the transition to the next level, keep an eye out for the orange elevator doors in the boss room. You can activate the elevator with the E key to ascend further toward the surface. But keep this in mind: the way up is a one-way street! Once you enter a new level, returning to the lower floors is no longer possible.";
+
+    public const string InteractingWithSnackMachine = "You've found a snack machine! Your only chance to resupply yourself amidst the chaos. Press the E key to open the purchase menu. Here, you can exchange your collected coins for valuable consumables like healing syringes, ammunition, or energy bars. Simply select the desired item with the left mouse button to place it directly into your inventory or item bar.";
+
+    public const string InteractingWithCorpse = "You have encountered the remains of a fallen enemy. In this ravaged facility, every resource counts for survival. Press the E key to loot the corpse and scavenge valuable items. You may find ammunition for your weapons, coins to spend at snack machines, or other useful supplies that will aid you in your escape.";
+
+    public const string EnteringMutantRoom = "You have come across another test subject of Project Genesis. This fellow prisoner has succumbed to the weight of their own mutation and now blocks the path to the next floor. You must defeat this threat to unlock the orange elevator doors so you can continue your escape. A tactical decision lies before you. Will you execute them to harvest a mutant injection and briefly wield their special ability? Or will you choose to win a powerful companion for your journey? To recruit this subject, you must first weaken them through damage, deploy a stun grenade to daze them, and then use a neurochip to secure their loyalty. Both utility items are available at any snack machine. Will you seize their power for yourself or win a loyal companion for the climb to the surface? To command your ally, right click them and then right click your target.";
+
+    public const string InteractingWithBearTrap = "Caution! You are near an explosive bear trap. These deadly devices are designed to catch and destroy unwary victims. To disarm the trap, approach it carefully and press the E key.";
+
+    public const string InteractingWithChemicalTank = "You have discovered one of the chemical containers, a dangerous tool if you know how to use it. You can either manipulate the tank specifically with the E key or cause it to leak by shooting it. As soon as the casing breaks, corrosive substances spill out and form a hazard zone around the container. Use the toxin tactically to bring your pursuers to their knees, but stay alert, as the chemicals do not distinguish between friend and foe and will cause you significant damage as well.";
+
+    public const string InteractingWithTable = "In the middle of the dangerous corridors of Helix Biotech, a simple laboratory table can be your lifesaver. When you are near a table, press the E key to flip it over with force. In this new position, it effectively blocks incoming ranged attacks and provides the necessary cover to withstand the assaults of security personnel and combat robots.";
+
+    private const string PageBreakReferenceText = "You awaken deep in the basement of the Helix Biotech research facility, surrounded by cold concrete walls and the pungent scent of disinfectant. In a world where science knows no bounds, you, one of the final test subjects of";
+
+    public static int PageBreakLength => PageBreakReferenceText.Trim().Length;
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="13" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="80">
+ <tileset firstgid="1" source="tileset_ebene2.tsx"/>
+ <tileset firstgid="852" source="tileset_ebene1.tsx"/>
+ <tileset firstgid="1703" source="props_and_items_ebene2.tsx"/>
+ <tileset firstgid="2231" source="tileset_ebene3.tsx"/>
+ <layer id="2" name="floor" width="13" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2300,2300,2302,2301,2302,2300,2300,0,0,0,0,
+2302,2301,2302,2302,2337,2302,2337,2302,2302,2301,2302,0,0,
+2302,2302,2300,2300,2302,2302,2302,2300,2300,2302,2302,2337,0,
+0,2302,2302,2302,2337,2302,2337,2302,2302,2302,2302,2302,2302,
+0,2302,2300,2300,2302,2302,2302,2300,2300,2302,2302,2302,2302,
+0,2302,2302,2302,2337,2302,2337,2302,2302,2302,2302,2302,2302,
+0,0,2300,2300,2302,2301,2302,2300,2300,2302,0,0,0,
+0,0,2302,2302,2302,2301,2302,2302,2302,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="walls" width="13" height="9">
+  <data encoding="csv">
+0,0,2233,2236,2236,0,2236,2236,2239,0,0,0,0,
+2233,2606,2270,0,0,0,0,0,2276,0,2277,0,0,
+2306,0,0,0,0,0,0,0,0,0,2314,0,0,
+2565,2566,0,0,0,0,0,0,0,2357,2276,2485,2277,
+0,2306,0,0,0,0,0,0,0,2353,0,0,2314,
+0,2306,0,0,0,0,0,0,0,2353,0,0,2314,
+0,2306,0,0,0,0,0,0,0,2572,2606,2606,2609,
+0,2565,2566,0,0,0,0,0,2572,2573,0,0,0,
+0,0,2603,0,2606,2606,2606,0,2609,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="props" width="13" height="9">
+  <data encoding="csv">
+0,0,0,1710,0,0,0,1710,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1761,1834,0,0,0,1834,1761,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1761,1834,0,0,0,1834,1761,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1761,1834,0,0,0,1834,1761,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Entities">
+  <object id="1" name="DoorSpawn" type="Door" x="160" y="0" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="North"/>
+   </properties>
+  </object>
+  <object id="2" name="DoorSpawn" type="Door" x="224" y="256" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="South"/>
+   </properties>
+  </object>
+  <object id="3" name="DoorSpawn" type="Door" x="288" y="32" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="East"/>
+   </properties>
+  </object>
+  <object id="4" name="DoorSpawn" type="Door" x="96" y="256" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="West"/>
+   </properties>
+  </object>
+  <object id="49" name="PlayerSpawn" type="Spawn" x="367" y="143">
+   <ellipse/>
+  </object>
+  <object id="54" name="ElevatorSpawn" type="ElevatorSpawn" x="352" y="96" width="32" height="32">
+   <properties>
+    <property name="Open" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Collisions">
+  <object id="5" x="64" y="24" width="224" height="8"/>
+  <object id="6" x="280" y="56" width="72" height="8"/>
+  <object id="7" x="0" y="56" width="72" height="8"/>
+  <object id="8" x="64" y="32" width="8" height="24"/>
+  <object id="9" x="280" y="32" width="8" height="24"/>
+  <object id="10" x="0" y="120" width="40" height="8"/>
+  <object id="11" x="385.303" y="119" width="29.3636" height="8"/>
+  <object id="12" x="344" y="64" width="8" height="56"/>
+  <object id="13" x="0" y="64" width="8" height="56"/>
+  <object id="14" x="32" y="128" width="8" height="120"/>
+  <object id="15" x="32" y="248" width="40" height="8"/>
+  <object id="16" x="64" y="280" width="224" height="8"/>
+  <object id="17" x="64" y="256" width="8" height="24"/>
+  <object id="21" x="280" y="256" width="8" height="24"/>
+  <object id="22" x="280" y="248" width="40" height="8"/>
+  <object id="23" x="312" y="215.833" width="8" height="32.1667"/>
+  <object id="50" x="321" y="216" width="95" height="8"/>
+  <object id="51" x="408.167" y="127.333" width="7.66667" height="88"/>
+  <object id="65" x="226" y="83" width="28" height="11"/>
+  <object id="66" x="226" y="147" width="28" height="11"/>
+  <object id="67" x="226" y="211" width="28" height="11"/>
+  <object id="68" x="98" y="211" width="28" height="11"/>
+  <object id="69" x="98" y="83" width="28" height="11"/>
+  <object id="70" x="98" y="147" width="28" height="11"/>
+ </objectgroup>
+ <objectgroup id="6" name="Props">
+  <object id="56" x="68" y="82" width="25" height="10"/>
+  <object id="57" x="68" y="146" width="25" height="10"/>
+  <object id="58" x="68" y="210" width="25" height="10"/>
+  <object id="74" x="260" y="82" width="25" height="10"/>
+  <object id="75" x="260" y="146" width="25" height="10"/>
+  <object id="79" x="260" y="210" width="25" height="10"/>
+ </objectgroup>
+ <objectgroup id="8" name="Acids"/>
+</map>

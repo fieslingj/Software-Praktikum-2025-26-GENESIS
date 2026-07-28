@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="109">
+ <tileset firstgid="1" source="tileset_ebene2.tsx"/>
+ <tileset firstgid="852" source="props_and_items_ebene2.tsx"/>
+ <tileset firstgid="1380" source="Beartrap.tsx"/>
+ <tileset firstgid="1384" source="ExplosionEffect.tsx"/>
+ <layer id="3" name="floor" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,72,72,70,71,71,72,72,0,
+0,0,0,0,0,0,0,0,0,0,0,0,72,72,72,107,107,72,72,0,
+0,0,0,0,0,0,0,0,0,0,0,0,109,110,111,74,74,109,111,0,
+0,0,0,0,0,0,0,0,0,0,0,72,146,147,148,74,74,146,148,0,
+0,0,0,72,72,71,71,72,72,70,70,72,72,72,72,72,72,72,72,0,
+0,72,72,72,74,107,107,72,72,72,72,72,72,71,71,71,71,72,72,0,
+0,72,72,72,107,107,107,72,72,72,72,72,72,71,107,107,71,72,72,0,
+0,72,72,107,107,74,72,72,72,72,72,72,72,71,71,71,71,72,72,0,
+0,72,107,107,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,0,
+0,72,107,107,70,0,0,0,0,0,0,72,72,72,72,0,0,0,0,0,
+0,72,71,71,72,0,0,0,0,0,0,0,0,71,0,0,0,0,0,0,
+0,0,71,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="floorDecoration" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,877,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,879,880,0,0,0,0,0,0,0,876,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,876,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,879,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="walls" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,342,6,6,6,0,6,47,0,
+0,0,0,0,0,0,0,0,0,0,0,342,379,0,0,0,0,0,84,0,
+0,0,0,0,0,0,0,0,0,0,0,306,0,0,0,0,0,0,84,0,
+0,0,0,0,0,0,0,0,0,0,0,306,0,0,0,0,0,0,84,0,
+0,0,342,6,6,6,0,6,6,6,6,343,0,0,0,0,0,0,84,0,
+0,3,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,
+0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,
+0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,
+0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,
+0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,
+0,298,0,0,342,6,6,6,6,6,6,336,0,0,342,376,376,376,343,0,
+0,298,0,0,306,0,0,0,0,0,0,373,376,0,379,0,0,0,0,0,
+0,373,6,0,379,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="props" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,997,997,997,0,0,1092,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1021,1021,1021,0,0,1116,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,865,0,0,0,0,997,948,949,865,0,0,0,0,0,0,0,0,
+0,0,997,0,0,0,0,0,1021,1007,1007,0,0,900,0,0,0,0,0,0,
+0,0,1021,924,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,852,1031,0,0,0,0,0,0,0,0,0,1032,0,1032,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,907,852,907,852,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Collisions">
+  <object id="4" x="408" y="56" width="200" height="8"/>
+  <object id="5" x="408" y="64" width="8" height="24"/>
+  <object id="6" x="376" y="88" width="40" height="8"/>
+  <object id="7" x="376" y="96" width="8" height="88"/>
+  <object id="8" x="88" y="184" width="296" height="8"/>
+  <object id="9" x="88" y="192" width="8" height="24"/>
+  <object id="10" x="32" y="216" width="64" height="8"/>
+  <object id="11" x="32" y="224" width="8" height="216"/>
+  <object id="12" x="32" y="440" width="128" height="8"/>
+  <object id="13" x="152" y="384" width="8" height="56"/>
+  <object id="14" x="152" y="376" width="208" height="8"/>
+  <object id="15" x="352" y="384" width="8" height="24"/>
+  <object id="16" x="352" y="408" width="128" height="8"/>
+  <object id="17" x="472" y="384" width="8" height="24"/>
+  <object id="18" x="472" y="376" width="136" height="8"/>
+  <object id="19" x="600" y="64" width="8" height="312"/>
+  <object id="24" x="70" y="234" width="21" height="10"/>
+  <object id="28" x="262" y="202" width="21" height="10"/>
+  <object id="40" x="390" y="106" width="21" height="10"/>
+  <object id="42" x="422" y="106" width="21" height="10"/>
+  <object id="43" x="454" y="106" width="21" height="10"/>
+  <object id="44" x="550" y="106" width="21" height="10"/>
+ </objectgroup>
+ <objectgroup id="9" name="Props">
+  <object id="93" x="100" y="242" width="24" height="12"/>
+  <object id="94" x="75" y="273" width="9" height="5"/>
+  <object id="95" x="108" y="279" width="8" height="6"/>
+  <object id="96" x="291" y="212" width="25" height="8"/>
+  <object id="97" x="323" y="212" width="25" height="8"/>
+  <object id="98" x="428" y="279" width="8" height="6"/>
+  <object id="99" x="420" y="306" width="24" height="12"/>
+  <object id="100" x="459" y="305" width="9" height="5"/>
+  <object id="101" x="492" y="279" width="8" height="6"/>
+  <object id="102" x="484" y="306" width="24" height="12"/>
+  <object id="103" x="523" y="305" width="9" height="5"/>
+  <object id="104" x="420" y="210" width="24" height="12"/>
+ </objectgroup>
+ <objectgroup id="7" name="Entities">
+  <object id="53" name="Beartrap" type="Trap" gid="1380" x="543.862" y="255.584" width="32" height="32" visible="0">
+   <properties>
+    <property name="Damage" type="float" value="100"/>
+    <property name="Effect" type="object" value="58"/>
+    <property name="RangeLayer" type="object" value="54"/>
+   </properties>
+  </object>
+  <object id="58" name="ExplosionEffect" gid="1384" x="495.5" y="256.5" width="128" height="128" visible="0"/>
+  <object id="60" name="RobotSpawn" type="RobotSpawn" x="350" y="250">
+   <ellipse/>
+  </object>
+  <object id="61" name="BearTrap" type="Trap" gid="1380" x="65" y="417" width="32" height="32">
+   <properties>
+    <property name="Damage" type="float" value="40"/>
+    <property name="Effect" value="62"/>
+   </properties>
+  </object>
+  <object id="62" name="Explosion" type="Effect" gid="1384" x="15.5" y="415" width="128" height="128" visible="0"/>
+  <object id="63" name="PlayerSpawn" type="Spawner" x="242" y="271">
+   <ellipse/>
+  </object>
+  <object id="64" name="ScientistSpawn" type="Spawner" x="452" y="366">
+   <ellipse/>
+  </object>
+  <object id="65" name="SnackMachine" type="SnackMachine" x="352" y="192" width="32" height="32"/>
+  <object id="66" name="SecuritySpawn" type="Spawner" x="440" y="330"/>
+  <object id="69" name="ChemicalTank" type="ChemicalTank" x="500" y="120"/>
+  <object id="79" name="Table" type="Table" x="300" y="300"/>
+  <object id="105" name="DoorSpawn" type="Door" x="192" y="160" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="West"/>
+   </properties>
+  </object>
+  <object id="106" name="DoorSpawn" type="Door" x="96" y="416" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="South"/>
+   </properties>
+  </object>
+  <object id="107" name="DoorSpawn" type="Door" x="512" y="32" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="North"/>
+   </properties>
+  </object>
+  <object id="108" name="DoorSpawn" type="Door" x="416" y="384" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="East"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Acids">
+  <object id="67" x="385" y="129" width="95" height="63"/>
+  <object id="68" x="545" y="129" width="55" height="63"/>
+ </objectgroup>
+</map>

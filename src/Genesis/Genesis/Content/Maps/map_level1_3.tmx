@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="134">
+ <tileset firstgid="1" source="tileset_ebene1.tsx"/>
+ <tileset firstgid="852" source="props_and_items_ebene2.tsx"/>
+ <tileset firstgid="1380" source="Beartrap.tsx"/>
+ <tileset firstgid="1384" source="ExplosionEffect.tsx"/>
+ <layer id="3" name="floor" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,0,0,0,0,0,
+72,107,71,71,71,71,72,72,72,71,72,72,72,72,71,0,0,0,0,0,
+72,107,71,71,71,71,72,72,71,71,71,72,72,70,70,0,0,0,0,0,
+72,72,72,72,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,72,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,72,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,72,70,0,0,0,0,0,0,0,0,0,0,71,71,0,0,0,
+72,72,72,72,70,0,0,0,0,0,0,0,0,0,0,107,71,71,72,72,
+72,72,72,107,74,0,0,0,0,0,0,0,0,0,0,107,107,71,71,72,
+72,72,107,107,74,0,0,0,0,0,0,0,0,0,0,72,107,72,72,72,
+72,72,107,70,74,71,71,72,72,71,71,72,72,72,70,70,70,70,72,72,
+0,0,0,71,70,70,70,71,72,71,71,71,72,71,70,72,70,70,71,71,
+0,0,0,72,70,72,72,72,71,71,71,72,72,72,72,72,72,71,71,71,
+0,0,0,0,0,0,0,0,0,71,71,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="floorDecoration" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,876,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="walls" width="20" height="15">
+  <data encoding="csv">
+3,6,6,6,6,6,6,6,6,6,0,6,6,6,47,0,0,0,0,0,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,
+76,0,0,0,0,3,6,6,6,6,6,6,6,6,379,0,0,0,0,0,
+76,0,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+335,6,9,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,84,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+39,376,379,0,0,76,0,0,0,0,0,0,0,0,342,6,6,6,0,9,
+76,0,0,0,0,76,0,0,0,0,0,0,0,0,84,0,0,0,0,84,
+76,0,0,0,0,76,0,0,0,0,0,0,0,0,84,0,0,0,0,84,
+76,0,0,0,0,76,0,0,0,0,0,0,0,0,84,0,0,0,0,84,
+373,0,47,0,0,373,376,376,376,376,376,376,376,376,343,0,0,0,0,84,
+0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+0,0,46,6,6,6,6,6,6,6,0,6,6,6,6,6,6,6,6,379
+</data>
+ </layer>
+ <layer id="2" name="props" width="20" height="15">
+  <data encoding="csv">
+0,1092,1092,948,949,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1116,1116,910,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1032,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Collisions">
+  <object id="4" x="352" y="472" width="288" height="8"/>
+  <object id="19" x="632" y="256" width="8" height="216"/>
+  <object id="110" x="0" y="24" width="320" height="8"/>
+  <object id="111" x="352" y="24" width="128" height="8"/>
+  <object id="112" x="472" y="32" width="8" height="88"/>
+  <object id="113" x="160" y="120" width="320" height="8"/>
+  <object id="114" x="160" y="128" width="8" height="248"/>
+  <object id="115" x="160" y="376" width="320" height="8"/>
+  <object id="116" x="472" y="256" width="8" height="120"/>
+  <object id="117" x="472" y="248" width="104" height="8"/>
+  <object id="118" x="608" y="248" width="32" height="8"/>
+  <object id="119" x="96" y="472" width="224" height="8"/>
+  <object id="120" x="88" y="384" width="8" height="96"/>
+  <object id="121" x="0" y="376" width="96" height="8"/>
+  <object id="122" x="0" y="248" width="8" height="128"/>
+  <object id="123" x="8" y="248" width="88" height="8"/>
+  <object id="125" x="88" y="192" width="8" height="56"/>
+  <object id="126" x="0" y="184" width="96" height="8"/>
+  <object id="127" x="0" y="32" width="8" height="152"/>
+  <object id="128" x="38" y="42" width="21" height="10"/>
+  <object id="129" x="70" y="42" width="21" height="10"/>
+  <object id="130" x="100" y="50" width="25" height="10"/>
+  <object id="131" x="492" y="311" width="8" height="6"/>
+ </objectgroup>
+ <objectgroup id="9" name="Props"/>
+ <objectgroup id="7" name="Entities">
+  <object id="53" name="Beartrap" type="Trap" gid="1380" x="579.018" y="416.647" width="32" height="32">
+   <properties>
+    <property name="Damage" type="float" value="40"/>
+    <property name="Effect" type="object" value="58"/>
+    <property name="RangeLayer" type="object" value="54"/>
+   </properties>
+  </object>
+  <object id="58" name="ExplosionEffect" gid="1384" x="530.656" y="417.563" width="128" height="128"/>
+  <object id="63" name="PlayerSpawn" type="Spawn" x="408" y="64">
+   <ellipse/>
+  </object>
+  <object id="64" name="ScientistSpawn" type="Spawn" x="56" y="304">
+   <ellipse/>
+  </object>
+  <object id="65" name="SnackMachine" type="SnackMachine" x="512" y="288" width="32" height="32"/>
+  <object id="66" name="SecuritySpawn" type="Spawn" x="80" y="88">
+   <ellipse/>
+  </object>
+	 <object id="67" name="ScientistSpawn" type="Spawn" x="85" y="88">
+		 <ellipse/>
+	 </object>
+  <object id="105" name="DoorSpawn" type="Door" x="576" y="224" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="East"/>
+   </properties>
+  </object>
+  <object id="106" name="DoorSpawn" type="Door" x="32" y="352" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="West"/>
+   </properties>
+  </object>
+  <object id="107" name="DoorSpawn" type="Door" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="North"/>
+   </properties>
+  </object>
+  <object id="108" name="DoorSpawn" type="Door" x="320" y="448" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="South"/>
+   </properties>
+  </object>
+  <object id="132" name="Beartrap" type="Trap" gid="1380" x="112.388" y="278.63" width="32" height="32">
+   <properties>
+    <property name="Damage" type="float" value="100"/>
+    <property name="Effect" type="object" value="133"/>
+    <property name="RangeLayer" type="object" value="54"/>
+   </properties>
+  </object>
+  <object id="133" name="ExplosionEffect" gid="1384" x="64" y="278" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="8" name="Acids"/>
+</map>

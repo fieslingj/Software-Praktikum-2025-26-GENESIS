@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="158">
+ <tileset firstgid="1" source="tileset_ebene3.tsx"/>
+ <tileset firstgid="852" source="props_and_items_ebene2.tsx"/>
+ <tileset firstgid="1380" source="Beartrap.tsx"/>
+ <tileset firstgid="1384" source="ExplosionEffect.tsx"/>
+ <layer id="3" name="floor" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,72,
+72,72,71,71,71,71,72,72,74,74,72,72,72,72,70,71,71,72,72,72,
+72,72,71,70,71,71,72,72,72,72,72,72,72,72,72,107,107,72,72,72,
+72,72,72,72,70,72,72,72,72,72,72,72,109,110,111,74,74,109,72,72,
+0,72,0,72,72,72,72,72,72,72,72,72,146,147,148,74,74,0,0,0,
+0,0,0,72,72,71,71,72,73,70,70,72,72,72,72,72,72,0,0,0,
+0,0,0,72,74,107,107,72,184,72,72,72,72,71,71,71,71,0,0,0,
+72,72,72,72,107,107,107,72,74,72,72,72,72,71,107,107,71,72,72,72,
+72,72,72,107,107,74,72,72,184,71,71,71,72,71,71,71,71,72,72,72,
+72,72,107,107,72,72,72,72,72,71,71,72,72,72,72,72,72,72,72,72,
+72,72,107,107,70,72,72,72,72,71,71,72,72,72,72,74,74,72,72,72,
+72,72,71,71,74,74,74,74,72,71,71,72,72,71,72,72,70,70,71,71,
+72,72,72,72,72,72,72,72,72,71,71,72,72,72,72,72,72,71,71,71,
+0,0,0,0,0,0,0,0,0,71,71,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="floorDecoration" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,876,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,877,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,879,880,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="walls" width="20" height="15">
+  <data encoding="csv">
+3,6,6,6,6,6,6,6,6,6,0,6,6,6,6,6,6,6,6,9,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+335,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,6,379,
+0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,0,
+39,6,379,0,0,0,0,0,0,0,0,0,0,0,0,0,0,373,0,9,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,
+373,6,6,6,6,6,6,6,6,6,0,6,6,6,6,6,6,6,6,379
+</data>
+ </layer>
+ <layer id="2" name="props" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,948,949,0,865,0,950,951,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,900,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,878,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1092,1092,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1116,1116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Collisions">
+  <object id="4" x="352" y="472" width="288" height="8"/>
+  <object id="19" x="632" y="32" width="8" height="152"/>
+  <object id="110" x="0" y="32" width="8" height="152"/>
+  <object id="111" x="632" y="256" width="8" height="216"/>
+  <object id="112" x="0" y="256" width="8" height="216"/>
+  <object id="113" x="0" y="24" width="320" height="8"/>
+  <object id="114" x="352" y="24" width="288" height="8"/>
+  <object id="115" x="544" y="184" width="96" height="8"/>
+  <object id="116" x="544" y="192" width="8" height="56"/>
+  <object id="117" x="544" y="248" width="32" height="8"/>
+  <object id="118" x="608" y="248" width="32" height="8"/>
+  <object id="119" x="0" y="472" width="320" height="8"/>
+  <object id="120" x="0" y="184" width="96" height="8"/>
+  <object id="121" x="0" y="248" width="96" height="8"/>
+  <object id="123" x="88" y="192" width="8" height="56"/>
+ </objectgroup>
+ <objectgroup id="9" name="Props">
+  <object id="128" x="100" y="82" width="24" height="12"/>
+  <object id="133" x="38" y="426" width="21" height="10"/>
+  <object id="134" x="70" y="426" width="21" height="10"/>
+  <object id="135" x="580" y="82" width="24" height="12"/>
+ </objectgroup>
+ <objectgroup id="7" name="Entities">
+  <object id="53" name="Beartrap" type="Trap" gid="1380" x="418.773" y="230.239" width="32" height="32">
+   <properties>
+    <property name="Damage" type="float" value="40"/>
+    <property name="Effect" type="object" value="58"/>
+    <property name="RangeLayer" type="object" value="54"/>
+   </properties>
+  </object>
+  <object id="58" name="ExplosionEffect" gid="1384" x="368.775" y="218.891" width="128" height="128"/>
+  <object id="63" name="PlayerSpawn" type="Spawn" x="328" y="224">
+   <ellipse/>
+  </object>
+  <object id="64" name="ScientistSpawn" type="Spawn" x="448" y="320">
+   <ellipse/>
+  </object>
+  <object id="65" name="SnackMachine" type="SnackMachine" x="64" y="64" width="32" height="32"/>
+  <object id="66" name="SecuritySpawn" type="Spawn" x="504" y="280">
+   <ellipse/>
+  </object>
+  <object id="105" name="DoorSpawn" type="Door" x="576" y="224" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="East"/>
+   </properties>
+  </object>
+  <object id="106" name="DoorSpawn" type="Door" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="West"/>
+   </properties>
+  </object>
+  <object id="107" name="DoorSpawn" type="Door" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="North"/>
+   </properties>
+  </object>
+  <object id="108" name="DoorSpawn" type="Door" x="320" y="448" width="32" height="32">
+   <properties>
+    <property name="DoorDirection" value="South"/>
+   </properties>
+  </object>
+  <object id="141" name="Table" type="Table" x="224" y="128" width="32" height="32"/>
+  <object id="142" name="Table" type="Table" x="353.333" y="287.333" width="32" height="32"/>
+  <object id="143" name="Table" type="Table" x="193.333" y="351.333" width="32" height="32"/>
+  <object id="144" name="ChemicalTank" type="ChemicalTank" x="160" y="192" width="32" height="33"/>
+  <object id="145" name="ChemicalTank" type="ChemicalTank" x="384" y="352" width="32" height="33"/>
+  <object id="146" name="ChemicalTank" type="ChemicalTank" x="448" y="96" width="32" height="33"/>
+  <object id="147" name="ChemicalTank" type="ChemicalTank" x="416" y="96" width="32" height="33"/>
+  <object id="148" name="ChemicalTank" type="ChemicalTank" x="544" y="352" width="32" height="33"/>
+  <object id="150" name="ScientistSpawn" type="Spawn" x="320" y="352">
+   <ellipse/>
+  </object>
+  <object id="151" name="ScientistSpawn" type="Spawn" x="256" y="416">
+   <ellipse/>
+  </object>
+  <object id="152" name="ScientistSpawn" type="Spawn" x="96" y="320">
+   <ellipse/>
+  </object>
+  <object id="153" name="ScientistSpawn" type="Spawn" x="128" y="128">
+   <ellipse/>
+  </object>
+  <object id="154" name="ScientistSpawn" type="Spawn" x="256" y="64">
+   <ellipse/>
+  </object>
+  <object id="155" name="ScientistSpawn" type="Spawn" x="320" y="160">
+   <ellipse/>
+  </object>
+  <object id="156" name="ScientistSpawn" type="Spawn" x="512" y="128">
+   <ellipse/>
+  </object>
+  <object id="157" name="RobotSpawn" type="Spawner" x="304" y="248" width="25.3333" height="20">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Acids">
+  <object id="137" x="384" y="128" width="96" height="64"/>
+  <object id="138" x="544" y="128" width="32" height="64"/>
+  <object id="139" x="256" y="192" width="32" height="64"/>
+  <object id="140" x="256" y="288" width="32" height="32"/>
+ </objectgroup>
+</map>
